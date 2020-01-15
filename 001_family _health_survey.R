@@ -8,6 +8,9 @@ family_health_survey <- read_dta("IAHR52FL.dta")
 household_level <- 
   select(family_health_survey, hhid:shstruc)
 
+
+
+
 # 02 plot ---- number of household members in the entire sample
 #  hv009  -  the number of listed household members
 
@@ -30,7 +33,7 @@ ggplot(data = household_level,
 family_health_survey%>% 
   group_by(hv025) %>% 
   count()
-# this verifies that --- 1 == urban], count is 50236
+# this verifies that --- 1 == urban, count is 50236
 
 family_health_survey%>% 
   group_by(hv026) %>% 
