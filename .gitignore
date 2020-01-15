@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+002_histogram_household_size.pdf
+*.dta
+003_boxplot_urban_household_size.pdf
